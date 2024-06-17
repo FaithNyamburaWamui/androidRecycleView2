@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
        binding=ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-       val names= listOf("Amina","Caroline","Brenda","Daina","Esther","Flo","Gina","Hellen","Innocent","Jacob","Kelvin","Lisa","Mike","Naomi","Oscar","Pearl","Queen","Robert")
+       val names= listOf("Amina","Caroline","Brenda","Daina","Esther","Flo","Gina","Hellen","Innocent","Jacob","Kelvin","Lisa","Mike","Naomi","Oscar","Pearl","Queen","Robert","Unyolo","Zany","Zippy","Janet")
   binding.rvNames.layoutManager=LinearLayoutManager(this)
         val nameAdapter=NamesRecyclerViewAdapter(names)
         binding.rvNames.adapter=nameAdapter
